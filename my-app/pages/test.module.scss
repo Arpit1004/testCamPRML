@@ -1,0 +1,66 @@
+.vdo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.vdoParent {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContainer {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+}
+
+.conatiner2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn1 {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn2{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.drawerText1{
+font-weight: 700;
+font-size: 16px;
+color: #000000;
+}
+
+.drawerContainer{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 10px;
+}
+
+.drawerSubContainer1{
+    display: flex;
+    gap: 16px;
+}
