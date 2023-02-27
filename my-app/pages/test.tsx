@@ -153,6 +153,9 @@ function SelfieVerification() {
                                     ref={videoRef}
                                     onPlay={handleVideoOnPlay}
                                     className={`${styles.vdo}`}
+                                    autoPlay={true}
+                                    playsInline={true}
+                                    muted={true}
                                 />
                                 {/* <div style={{border: "2px solid red", height:"200px", width:"200px", position: "absolute"}}> 
                                 <canvas ref={canvasRef} style={{ position: 'absolute', display: "none" }} />
